@@ -1,63 +1,64 @@
 <!DOCTYPE html>     <!--document type-->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
 
+    <link rel="stylesheet" href="in.css">
+    
     
 </head>
+
 <body>
+    <header >
+        <img class="logo" src="todo.PNG" alt="To-Do Logo" width="80px"/>
+        <a href="##"> Home </a>
+        <a href="about.html"> About </a>
+    </header>
     
 
-  <header>
-    <h1>ToDo</h1>
-  <nav>
+    <main >
+    
+    <section>
+      <h1 class="headertodo">ToDo</h1>
+    </section>
 
-    <img src="todo.PNG" alt="To-Do Logo" width="80px"/>
-          <a href="Home.html"> Home </a>
-          <a href="about.html"> About </a>
-          <form action="">
-            <input type="text">
-            <!-- <input type="submit" value="search"> -->
-            <button>search</button>
+    <section class="centerofmain">
+        <form action="">
+        <input type="text">
+    <!-- <input type="submit" value="search"> -->
+        <button >search</button>
+        </form>
+    </section  >
 
-          </form>
+    <section class="centerofmain">
+        <table>
+            <tr>
+                <th class="heading3">Tasks</th>
+                <th>Status</th>     
+            </tr>  
+            <tr>
+                <td class="heading3" >Homework</td>
+                <td class="heading5">Complete </td>    
+            </tr>
+            <tr>
+                <td class="heading3">shopping</td>
+                <td class="heading5">Complete</td>
+            </tr>
+            <tr>
+                <td class="heading3">gym</td>
+                <td class="heading4">incomplete</td> 
+            </tr>
+        </table>
+    </section>
+    </main>
 
-    </nav>
-
-  </header>
-  
-  <main>
-      <table>
-        <tr>
-            <td>Tasks</td>
-            <td>Status</td>     
-        </tr>  
-        <tr>
-            <td>Homework</td>
-            <td>Complete </td>    
-        </tr>
-        <tr>
-            <td>shopping</td>
-             <td>Complete</td>
-         </tr>
-
-         <tr>
-            <td>gym</td>
-             <td>incomplete</td> 
-         </tr>
-      </table>
-
-
-  </main>
-  
-  <footer>
+    <footer class="centeroffooter">
     <p> &copy; 2022 ToDo. All Rights Reserved</p>
-  </footer>
-   
+    </footer>
+    
 </body>
 </html>
-
-

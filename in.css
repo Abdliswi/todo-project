@@ -1,0 +1,115 @@
+body {
+    background-color: #907163;
+  }
+  *{
+    margin :0;
+    padding:0;
+    }
+  .headertodo {
+    color: rgb(11, 11, 104);
+    font-family: "Lucida Handwriting";
+    font-size: 100px;
+  }
+
+  .centerofheader {
+    display: flex ;
+    background-color:rgb(147, 147, 148) ;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    font-size: 25px;
+    height: 100px;
+
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+  }
+  
+  .centerofmain {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+  }
+  
+  .centeroffooter {
+    height: 150px;
+    margin-bottom: 40;
+    text-align: center;
+    background-color: rgb(172, 161, 161);
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: baseline;
+  }
+  footer {
+    background-color: rgb(192, 189, 186);
+    padding: 40px;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 30px;
+  }
+  .heading {
+    color: chocolate;
+  }
+  .heading1 {
+    color: red;
+  }
+  .heading3 {
+    color: blueviolet;
+  }
+  .heading5 {
+    color: greenyellow;
+  }
+  .heading4 {
+    color: red;
+  }
+  
+  table,
+  .heading3,
+  .heading4,
+  .heading5 {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    margin-bottom: 90px;
+  }
+
+  header {
+    background-color: darkcyan;
+    display: flex ;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    font-size: 25px;
+    height: 100px;
+
+  }
+  .logo{
+
+    float: left;
+    height: 100px;
+  width:  190px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  input{
+    width:250px;
+    height: 25px;
+    
+  }
+  button{
+    width: 70px;
+    height: 25px;
+  }
