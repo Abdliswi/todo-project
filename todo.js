@@ -1,3 +1,19 @@
+function question (massage){
+	prompt(massage);
+}
+
+question('why are you interested in our website?');
+question("do you have a car?");
+question("are you married?");
+
+
+var freinds = ["abd", "abood", ""];
+
+for ( i= 0;  i < freinds.length ;  i++) {
+   
+    console.log (  freinds[ i ])
+}
+
 alert("hello dears")
 var username = prompt("please enter your name" )
 console.log(username)
@@ -28,8 +44,6 @@ welcoming = confirm("do you like to conitnue welcoming you or skip it?")
 
 
 
-  
-    
 
 alert("Now you can enjoy browsering our website")
 
